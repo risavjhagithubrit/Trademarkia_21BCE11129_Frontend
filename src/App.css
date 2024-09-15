@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.search-container {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.filters {
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.result-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.result-item h3 {
+  margin-top: 0;
+}
+
+.result-item p {
+  margin: 5px 0;
+}
+
